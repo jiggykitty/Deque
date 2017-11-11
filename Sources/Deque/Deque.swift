@@ -1,6 +1,7 @@
 import LinkedList
 
 public class Deque<T: Equatable>: CustomStringConvertible {
+  public init() {}
   private var list = LinkedList<T>()
   private var size = 0
   public var description: String {
